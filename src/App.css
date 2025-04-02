@@ -1,0 +1,89 @@
+/* Global Theme */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F4F4F4;
+  color: #2C3A47;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #4E944F;
+}
+
+.navbar {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFD369 !important;
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px;
+  color: #F4F4F4 !important;
+  margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+button {
+  border-radius: 20px;
+  padding: 6px 16px;
+  border: none;
+}
+
+button:hover {
+  background-color: #FFB830 !important;
+  opacity: 0.9;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.card-title {
+  color: #4E944F;
+}
+
+.card-text {
+  color: #2C3A47;
+}
+
+.btn-primary {
+  background-color: #4E944F;
+  border-color: #4E944F;
+}
+
+.btn-primary:hover {
+  background-color: #3A7A3C;
+}
+
+footer {
+  background-color: #4E944F;
+  padding: 10px;
+  color: #F4F4F4;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.navbar-nav .nav-link.active-link {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #FFD369 !important;
+}
